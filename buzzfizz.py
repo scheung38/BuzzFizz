@@ -15,3 +15,7 @@ def div(n):
 
         mylist.append(i)
     return mylist
+
+
+if __name__ == '__main__':
+    print div(100)
