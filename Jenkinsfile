@@ -9,5 +9,6 @@ pipeline {
   }
   environment {
     DISABLE_AUTH = 'true'
+    SAUCE_ACCESS = 'credentials(\'sauce-dev\')'
   }
 }
